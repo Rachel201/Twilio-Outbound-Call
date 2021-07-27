@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Device } from "twilio-client";
 import axios from "axios";
-import ''
+
 
 const backendUrl = process.env.BACKEND_URL
 

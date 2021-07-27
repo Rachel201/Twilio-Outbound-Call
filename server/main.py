@@ -19,6 +19,7 @@ api_key_secret = os.environ['TWILIO_API_SECRET']
 twiml_app_sid = os.environ['TWILIO_TWIML_APP_SID']
 twilio_number = os.environ['FROM_NUMBER']
 
+
 @app.route('/token', methods=['GET'])
 def get_token():
     identity = twilio_number
@@ -38,7 +39,6 @@ def get_token():
     response.headers.add('Access-Control-Allow-Origin', '*')
 
     return response
-
 
 
 @app.route('/handle_calls', methods=['POST'])

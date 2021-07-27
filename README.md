@@ -62,7 +62,7 @@ Copy the `.env.example` file to `.env` and fill in with your Twilio credentials.
 If you choose to use ngrok to tunnel from the public to this application you will need to run it with an extra setting. Start ngrok like this:
 
 ```bash
-ngrok http 3000 --host-header localhost:3000
+ngrok http 3000 
 ```
 
 ### TwiML App

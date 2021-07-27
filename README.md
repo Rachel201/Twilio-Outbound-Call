@@ -1,4 +1,4 @@
-# ⚛️☎️ React Twilio Phone ☎️⚛️
+# ⚛️☎️Twilio Outbound Call ☎️⚛️
 
 This application is an implementation of [Twilio Client](https://www.twilio.com/docs/voice/client/javascript) using [React](https://reactjs.org/).
 
